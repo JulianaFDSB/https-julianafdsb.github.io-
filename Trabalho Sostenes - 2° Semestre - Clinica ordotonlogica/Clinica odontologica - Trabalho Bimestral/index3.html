@@ -1,0 +1,138 @@
+<script langueagem="javascript">
+    function calcdesc(){
+       var idade = parseInt(formplano.txtnum.value); 
+        if(idade >= 18 && idade < 30)  {
+        formplano.txtdesc.value = "10% de Desconto" ;
+        }
+        if(idade >= 30 && idade < 45)  {
+        formplano.txtdesc.value = "15% de Desconto" ;
+        }
+        if(idade >= 45 )  {
+        formplano.txtdesc.value = "30% de Desconto" ;
+        }
+    }
+</script>
+
+<script language="javascript">
+    function login()
+{ 
+
+}
+    login =(prompt ("Digite seu login:"));
+    while (login ==="")
+    {login =(prompt ("Digite seu login!"));}
+
+    senha =(prompt ("Digite sua senha:"));
+
+    while (senha ==="")
+    {senha =(prompt ("Digite sua senha!"));}
+
+    alert("Logado com sucesso!"); 
+
+    </script>
+
+
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Clinica Odontológica</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo3.css"/>
+</head>    
+<body bgcolor="#ADD8E6">
+      <div id="principal">  
+        
+           <div id="cimabanner"> 
+               
+              <left> 
+           
+           <a href="index1.html"> Sobre Nós | </a>
+           <a href="index2.html"> Cadastro | </a>
+           <a href="index3.html"> Desconto | </a>
+           
+            </left> 
+               
+           </div>
+          
+          
+          <div id="banner"> 
+            
+          <img src="img/banner.jpeg" width="1300" height="440"/> 
+          
+          </div>
+         
+         
+    
+          <div id="menu"> 
+            
+           
+        
+          </div>
+       
+          <div id="corpo">
+            
+            <hr color="0ff"/>
+            <h1 align="center">GRANDE PROMOÇÃO!</h1>
+            <h2 align="center">SUA IDADE TEM DESCONTO</h2>
+            <hr color="0ff"/>
+            <div id="texto1">
+                
+            
+            <p>
+                Nossa loja está com um mega descontão , esse desconto tem tudo a ver com você , 
+                não importa sua idade , todos ganham desconto , temos diversos planos de desconto 
+                dependendo da sua idade você entra em dos planos de desconto aqui da loja , já pensou? ganha um desconto só 
+                pela sua idade , venha aproveite , é por tempo ilimitado.  <br> <br>
+                
+            </p>
+
+            <p>  
+                Basta apenas preencher o formulário e saberá do valor de seu desconto.
+
+
+            </p>
+                
+            <div id="formplano1">
+    
+       <fieldset>
+    <form name="formplano">
+            
+            <h4>Idade</h4>
+            <input type="text" name="txtnum" maxlength="20" size="20" >
+    
+            <h4>Desconto</h4>
+            <input type="text" name="txtdesc" size="14" readonly>
+   
+            <br><br>
+            <input type="button" name="butcalc" value="Calcular Desconto" onclick="calcdesc()">
+
+            <input type="reset" name="reslimpa" value="Limpar">
+        
+
+    </form>
+       </fieldset>
+             </div>
+                
+                
+                <div id="velhos"> 
+            
+                  <img src="img/off.jpeg" width="500" height="500"/>
+        
+                </div>
+                
+                
+                
+               
+            </div> 
+
+              
+            
+            <div id="rodape">
+               
+                <center>&copy;Catarina Juliana Jennyfer e Luana</center>
+            
+           </div>
+          </div>
+      </div>
+    </body>
+</html>

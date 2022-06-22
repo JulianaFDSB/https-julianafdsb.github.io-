@@ -1,0 +1,24 @@
+#principal {width: 1400px; height: 1800px; margin: auto; position: relative;}
+
+#menu {width: 1300px; height: 40px; position: absolute; background-color:#00CED1;margin-top: 500px;margin-left:20px;} 
+
+#menu a {font-size: 30; color:black;text-decoration: none;}
+
+#cimabanner {width: 1300px; height: 40px; position: absolute; background-color:#00CED1;margin-top: 10px;margin-left:20px;}
+
+#cimabanner a {font-size: 30; color:black;text-decoration: none;font-family:inherit;}
+
+#banner {width: 1400px; height: 300px; position: absolute; top: 55px;margin-left:20px;}
+
+#corpo {width: 1300px; height: 1510px; position: absolute; background-color:#E0FFFF;
+top: 440; text-align: center;font-family:fantasy;margin-top: 100px;margin-left:20px;}
+
+#familia{width: 700px; height: 700px; position: absolute;margin-left:05px;margin-top: 650px;}
+
+#Planos{width: 700px; height: 700px; position: absolute;margin-left:600px;margin-top: 650px;}
+
+#form{width: 900px; height: 800px; position: absolute;margin-left:200px;margin-top: 130px;}
+
+#rodape {width: 1300px; height: 40px; font-size: 20; color: black; position: absolute;
+background-color:#00CED1 ; bottom: 0;}
+

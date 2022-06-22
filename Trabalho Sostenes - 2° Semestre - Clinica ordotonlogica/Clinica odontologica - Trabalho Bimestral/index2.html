@@ -1,0 +1,114 @@
+
+<script language="javascript"> function verifique() 
+{ n = (frmclinica.numero.value);
+if  (n < 18)
+ alert("Você precisa ser maior de idade para realizar o cadastro, tente novamente");
+
+else 
+alert("Cadastrado com sucesso");
+
+}
+</script>
+
+
+<!DOCTYPE>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Clinica Odontológica</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo2.css"/>
+</head>    
+<body bgcolor="#ADD8E6">
+      <div id="principal">
+        
+           <div id="cimabanner"> 
+               
+               
+            <left> 
+           
+           <a href="index1.html"> Sobre Nós | </a>
+           <a href="index2.html"> Cadastro | </a>
+           <a href="index3.html"> Desconto | </a>
+           
+            </left> 
+                    
+    
+           </div>
+          
+    
+          
+ 
+          <div id="banner"> 
+            
+          <img src="img/banner.jpeg" width="1300" height="440"/> 
+          
+          </div>
+         
+         
+    
+          <div id="menu"> 
+            
+         
+          </div>
+       
+          <div id="corpo">
+            
+            <hr color="0ff"/>
+            <h1 align="center"> Clínica Odontológica - Smile </h1>
+            <hr color="0ff"/>
+              
+              
+          <div id="form"> 
+              
+                 
+        <fieldset>
+        <legend> Cadastro do cliente</legend>
+        
+        <form name="frmclinica">
+         
+            Nome/Login: <br/> <input type="text" size="50" maxlenght="50"> <br/>
+            Idade:<br/> 
+            <input type="number" id="numero"><br/>
+            Data de nascimento/Senha: <br/> <input type="date"><br/><br/>
+            Estado:
+        <select>
+            <option>RJ</option>
+            <option>SP</option>
+            <option>TO</option>
+            <option>AC</option>
+            </select><br/><br/>
+            <input type="submit" value="Cadastrar" onclick="verifique()"> <br/> <br/> <input type="reset" value="Limpar"/>
+
+
+         </form>
+         </fieldset>
+            
+         
+          </div>
+              
+          <div id="familia">
+               
+                <img src="img/plano%20familia.jpeg" width="500" height="500"/>
+           
+          </div>
+              
+        <div id="planos">
+               
+                <img src="img/individual.jpeg" width="500" height="500"/>
+           
+          </div>
+            
+              
+
+            
+            <div id="rodape">
+               
+                <center>&copy;Catarina Juliana Jennyfer e Luana</center>
+            
+           </div>
+              
+        
+          </div>
+      </div>
+    </body>
+</html>
