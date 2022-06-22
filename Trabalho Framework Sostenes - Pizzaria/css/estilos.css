@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e7e7e7;
+}
+
+/*Cabeçalho*/
+
+#area-cabecalho{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{ /*aplicando a mesma formatação para as duas áreas*/
+    padding: 10px;
+}
+
+/*formataçoes gerais*/
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+.branco{
+ 	color: white;
+}
+
+ /*formatando a área de menu*/
+a{
+text-decoration: none;
+padding: 8px 12px;
+}
+
+a:link, a:visited{
+color: #f7b600;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: #fff;
+}
+
+#area-cabecalho a:hover{
+	color: #f7b600;
+	background: #fff;
+	text-decoration: none;
+}
+
+#area-principal{
+background: #e7e7e7;
+width: 920px;/*largura padrão para os computadores - definindo a largura padrão*/
+margin: 0px auto;
+padding: 15px;
+}
+
+#area-postagens, #area-lateral{
+background: orange;
+}
+
+#area-postagens{
+width: 660px;
+float: left;
+}
+
+#area-lateral{
+width: 240px;
+float: right;
+}
+
+#area-rodape{
+	background-color: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	margin-top: 400px;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+h2{
+	color: #f7b600;
+}
+
+.data-postagem{
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+h3{
+color: #565656;
+background:#ccc;
+padding: 5px;
+}
+
+.postagem-lateral{
+font-size: 0.8em;
+padding: 5px;
+border-bottom: 1px dotted #ccc;
+}
+
+#area-lateral a:link, #area-lateral a:visited{
+	color: #fff;
+}
+
+
+#cx1{
+width:450px;
+height:600px;
+margin:center;
+}
+.figuras{
+    width:920x;
+    height:500px;
+    margin-bottom: auto;
+}
+#corpo{
+    width: 960px;
+    height: 520px;
+    position: center;
+    background-color:#e7e7e7;
+    top: 440px;
+}
+
+#cardapio{
+	width: 100px;
+	height: 10px;
+}
+
+
+#forms{
+   margin-left:600px;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>    
+	<meta charset="utf-8">
+	<title>Pizzaria</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"> </script>
+    <script type="text/javascript" src="javinha/jquery.mask.js"> </script>
+    <script src="http://jqueryvalidation.org/files/dist/jquery.validate.js"></script>
+    <script src="javinha/javinha.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script>
+       
+        $(document).ready(function(){
+        $("#cxdata").mask('00/00/0000');
+        $(".cxcep").mask('00000-000');
+        $("#cxtelefone").mask('0000-0000');
+        $('#cxc').mask('000.000.000-00', {reverse: true} );
+        $("#cxrg").mask('00.000.000-0', {reverse: true}) }); </script>
+
+
+
+
+</head>
+<body>
+   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    
+   <div id="area-cabecalho">
+         <div id="area-logo">
+         	<h1><span class="branco">Pizzaria</span>Racabikim</h1>
+         </div>
+         <div id="area-menu">
+         	<a href="index.html">Home</a>
+         	<a href="peçaonline.html">Peça Online</a>
+             <a href="cadastro.html">Cadastre-se</a>
+         </div>
+    </div>       
+    <div id="area-principal">
+            
+        <div id="menu"> <form id="validate">
+            <br/>
+            <h1> Cadastre-se </h1>
+
+
+            <input class="form-control" type="text" placeholder="Nome" id="cxnome"
+            onblur="vernome()" required><br/>
+
+            <input type="text" id="cxresp1" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            
+            <input class="form-control" type="text" placeholder="Sobrenome" id="cxsobrenome"
+            onblur="versobrenome()" required><br/>
+
+           <input type="text" id="cxresp2" 
+           style="background-color:#e7e7e7;border:0">
+           <br/>
+
+           
+           <input class="form-control" type="text" placeholder="Data de nascimento" id="cxdata"
+           class="cxdata" name="cxdata" onblur="veridade()" required><br/>
+
+           <input type="text" id="cxresp3" 
+           style="background-color:#e7e7e7;border:0">
+            <br/>
+            
+           
+            <input class="form-control" type="email" placeholder="E-mail" id="cxemail" 
+            onblur="veremail()" onchange="voltar()" required><br/>
+
+            <input type="text" id="cxresp4" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            
+            <input class="form-control" type="text" placeholder="Endereço" id="cxnascimento"
+            onblur="vernascimento()" onfocus="voltar()"required><br/>
+
+            <input type="text" id="cxresp5" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+           
+            <input class="form-control" type="text" placeholder="Complemento" id="cxco"
+             onblur="vercpf()" onfocus="voltar()"required><br/>
+
+            <input type="text" id="cxresp6" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            
+            <input class="form-control" type="text" placeholder="CPF" id="cxc" class="cxc"
+              class="cxcpf" name= "cxc" onblur="verc()" >
+        
+             
+             <br/>
+
+            <input type="text" id="cxresp7" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            
+            <input class="form-control" type="text" name="cxrg" placeholder="RG" id="cxrg" class="cxrg"
+             onblur="verrg()" ><br/>
+
+            <input type="text" id="cxresp8" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            
+            <input class="form-control" type="text" placeholder="Telefone" id="cxtelefone" name="telefone" class="cxtelefone"
+             onblur="vertelefone()"><br/>
+
+            <input type="text" id="cxresp9" 
+            style="background-color:#e7e7e7;border:0">
+            <br/>
+
+            <br/>
+
+            <button type="submit" class="btn btn-warning" onclick="caixaresposta()" >Cadastro</button> 
+     <input type="reset" class="btn btn-warning"
+            value="Limpar"/> </form>
+        </div>
+    </br> 
+    <script>
+    
+         
+        $("#validate").validate({
+        rules:{
+        cxc:{
+            required:true,
+            minlength:11 
+        },
+    
+        cxrg:{
+            required:true,
+            minlength:12
+        },
+        telefone:{
+            required:true,
+            minlength:8
+        },
+        cxdata:{
+            required:true,
+            
+        },
+
+    }
+        
+        });
+    
+    
+    </script>
+    
+    
+    
+
+    </div>
+    <div id="area-rodape">
+            &copy;Todos os direitos reservados
+        </div>  
+</body>            
+</html>
