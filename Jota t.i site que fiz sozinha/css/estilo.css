@@ -1,0 +1,468 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;  
+
+}
+
+
+/* Nav */
+
+#menu {
+    width: 100%;
+    background: #04bfbf;
+    color: #eee;
+    height: 80px;
+    position: fixed;
+}
+
+#menu-elementos {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+#menu-itens {
+    display:inline-flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#menu-itens li {
+    padding:10px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0rem 4rem;
+    border:1px solid #fff;
+    min-width: 7.40rem;
+    display: flex;
+    transition:.5s ease-in-out;
+    font-family:Andale Mono, monospace;
+}
+
+
+a:hover{
+    background-color: #04adbf;
+
+}
+
+
+/* Header */
+#header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A9A9A9;
+    background: url('/img/banner1.png') no-repeat center center/cover;
+
+    /* Overlay */
+    background-color:#fff;
+    background-blend-mode: color;
+}
+
+#header-elementos{
+    text-align: center;
+}
+
+.banner{
+    height: 165px;
+    background-color:#fff;
+    margin-top:-50px;
+    margin-left:-0px;
+    margin-bottom: 30px;
+}
+
+
+/* Historia da Empresa */
+
+.historiaempresa {
+
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: start;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    /*background-color: lightcoral;*/
+    width: 450px;
+    height:01px;
+    margin-left:115px;
+}
+
+.historiaprincipais {
+
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align:end;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    /*background-color: lawngreen;*/
+    width: 430px;
+    margin-top:-50px;
+    margin-left:690px;
+    height: 0px;
+}
+#historia {
+    width: 1248px;
+    padding: 50px;
+    background-color:#04adbf;
+    background-image:url('../img/iconn.png');
+
+    
+}
+
+#imagem-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#itens {
+    width: 550px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    
+}
+
+#itens .item {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+.item p{
+    color: rgb(17, 17, 0);
+    font-size:20px;
+    font-family:Andale Mono, monospace;
+    margin-bottom:-10px;
+    
+} 
+
+#itens1 {
+    width: 550px;
+    background-color:#fff;
+    margin-left:100px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    height:381px;
+    
+}
+
+#itens1 .item1 {
+    display: flex;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1.2rem;
+    
+}
+
+.item1 p{
+    color: rgb(17, 17, 0);
+    font-size:20px;
+    font-family:Andale Mono, monospace;
+    margin-left: 30px;
+    margin-bottom:55px;
+    
+} 
+
+/*Rodapé*/
+
+#footer {
+    background:#fff;
+    color: #000;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+/* No que Acreditamos */
+
+#noque {
+    width:1248px;
+    background: #fff;
+    color:black;
+    padding: 50px;
+}
+
+#noque-elementos {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+}
+
+.noque {
+    display: flex;
+    flex-direction: column;
+    background:#04adbf ;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+.noque-titulo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.noque p {
+
+    color: black;
+    font-family:Andale Mono, monospace;
+
+ }
+
+ .titulonoque{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/*Contatos */
+
+.contato {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background:#fff;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    height: 237px;
+}
+
+#contato {
+    width:1248x;
+    background: #04adbf;
+    color: #eee;
+    padding: 50px;
+    background-image:url('../img/iconn.png');
+    
+}
+
+#contato-elementos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contato .contato-image {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+
+.contatotitulo{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+.contato p {
+    color: black;
+    font-size: 23px
+    
+    
+}
+
+/*Contatos Informações */
+h1{
+
+    font-size:18.5px;
+    text-transform: uppercase;
+    
+}
+.card1{
+
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:#038c8c ;
+    background-image:url('../img/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: black;
+    margin-right: 670px;
+    margin-bottom:57px;
+
+
+}
+
+.card-wrapper1{
+
+    text-align: center;
+    margin-top:240px;
+ 
+ }
+
+ .card{
+
+    
+    width: 650px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff;
+    color: black;
+    margin-left:-650px;
+    margin-bottom:50px;
+
+
+}
+
+.card p{
+
+    
+   
+    color: black;
+    font-family:Andale Mono, monospace;
+    font-size: 22px;
+
+
+}
+
+
+.card2{
+
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:#038c8c ;
+    background-image:url('../img/jhon.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: black;
+    margin-right: 670px;
+    margin-bottom:56px;
+
+
+}
+
+.card4{
+
+    
+    width: 650px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff ;
+    color: black;
+    margin-left:-650px;
+    margin-bottom:60px;
+
+
+}
+.card4 p{
+
+    
+   
+    color: black;
+    font-family:Andale Mono, monospace;
+    font-size: 22px;
+   
+
+
+}
+
+.card-wrapper2{
+
+    text-align: center;
+    margin-top:240px;
+ 
+ }
+
+ .card3{
+
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    /*margin: 3rem 0 0 0;*/
+    /* display: flex;*/
+    align-items: center;
+    justify-content: center;
+    background-color:#038c8c ;
+    background-image:url('../img/jen.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    /*filter:grayscale(0.5) ;*/
+    color: black;
+    margin-right: 670px;
+    margin-bottom:57px;
+
+
+}
+.card5{
+
+    
+    width: 650px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff ;
+    color: black;
+    margin-left:-650px;
+    margin-bottom:60px;
+
+
+}
+
+.card5 p{
+
+    color: black;
+    font-family:Andale Mono, monospace;
+    font-size: 22px;
+    
+}
+
+.card-wrapper3{
+
+    text-align:center;
+    margin-top:240px;
+ 
+ }
+
+
+
+/*Rodapé*/
+#footer {
+    background:#04bfbf;
+    color: #000;
+    padding: 30px;
+    text-align: center;
+    
+}
+
