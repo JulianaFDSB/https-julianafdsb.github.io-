@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+
+	
+}
+body{
+	font-size: 16px;
+	font-family: "Trebuchet MS", sans-serif;
+	background-color: #e6e6e6;
+	
+}
+#area-cabecalho{
+	padding: 15px;
+	text-align: center;
+	background-color: #e6e6e6;
+	
+}
+#area-logo, #area-menu{
+	padding: 10px;
+	
+}
+#area-logo{
+	width: auto;
+	height: 160px;
+	border-radius:20px;
+	background-color:#006FCF;
+		
+}
+#area-logo1{
+	width: auto;
+	height: 180px;
+	border-radius:20px;
+	background-color:#006FCF;
+}
+#area-logo ,h4{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+		
+}
+.meio{
+	width: 280px ;
+	height:auto ;
+	
+
+}
+.pessoas{
+	float : right;
+	position: absolute;
+	top : 35px;
+	right: 25px;
+	
+	
+}
+.pessoas1{
+	float : right;
+	position: absolute;
+	top : 35px;
+	right: 15px;
+	
+}
+.logo-tipo{
+	margin: 10px;
+	width: 350px ;
+	height:auto ;
+	float: center;
+
+	
+}
+
+h1{
+	color:#4e4e4e;
+	font-size: 2.5em;
+}
+.branco{
+	color: white;
+}
+a{
+	text-decoration: none;
+	padding: 8px 12px;
+}
+a:link, a:visited{
+	color: #f7b600;
+}
+a:hover{
+	text-decoration: underline;
+	background: #fff;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
+	color: black;
+
+}
+#area-cabecalho a:hover{
+	color:#006FCF;
+	background: #fff;
+	text-decoration: none;
+}
+#area-principal{
+	background-color: #fff;
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+#area-principal1{
+	background-color: #fff;
+	width: 920px;
+	margin: 0px auto;
+	padding: 15px;
+}
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+	
+}
+#area-postagem{
+	width: 660px;
+	float: left;
+	text-align: justify;
+}
+#area-lateral{
+	width: 240px;
+	float: right;
+	text-align: justify;
+	
+}
+#area-rodape{
+	background: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+.data-postagem{
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+h3{
+	color: #565656;
+	background:#ccc;
+	padding: 5px;
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding-left: 45px;
+	margin-top: 35px;
+	border-bottom: 1px dotted #ccc;
+	text-align: justify;
+
+}
+.postagem-lateral1{
+	font-size: 0.8em;
+	padding-left: 45px;
+	margin-top:180px;
+	border-bottom: 1px dotted #ccc;
+	text-align: justify;
+	
+}
+img{
+	margin-left: 20px;
+}
+
+.imagemmenu{
+
+    height:450px;
+    width:50% ;
+    
+
+
+}
