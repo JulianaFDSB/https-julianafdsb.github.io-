@@ -1,0 +1,29 @@
+#principal {width: 1396px; height: 1400px; margin: auto; position: relative; }
+#banner {width: 100%; height: 350px;  position: absolute; background-color: aqua;}
+#barra1{background-color:black; width: 1400px; height: 40px;position: absolute;top: 350px;}
+#barra2{background-color:orangered; width: 1400px; height: 40px;position: absolute;top: 385px;}
+#menu1{width: 1400px; height: 100px;position: absolute;left: 1064px;;font-family: Garamond;font-size: 30px;text-decoration: none;top: 300px;}
+#menu.a{padding: 14px 25px;text-align: center;text-decoration: none;display: inline-block;}
+a:link , a:visited{background-color: chocolate;color: black;}
+a:hover , a:active{background-color: orangered;color: black;}
+
+
+
+
+
+
+#corpo { width: 100%; height: 702px; position: absolute; border: 0.5px solid #000; margin-top:350px;}
+#quadradoesquerda {width: 700px; height: 810px;  position: absolute; border: 0.5px solid #000;background-color: #1C1C1C ;top: 74px; }
+#quadradodireita {width: 696px; height: 800px;  left: 700px; position: absolute; border: 0.5px solid #000;background-color: #DCDCDC;top: 74px; }
+#quadradodireita img   {position:absolute;left:50%;top:50%;margin-left:-250px; margin-top:-10px;} 
+
+.textodireita    {font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px; font-weight: bold; text-align: center; color: #000;}              
+.titulofale {font-family: verdana; font-size: 25px; font-weight: bold; text-align: center; color: #A9A9A9; top: 74px;}
+#caixaodados{width:500px; height: 500px; position:absolute; margin-left: 80px; top: 124px;}          
+#rodape {
+    width: 1400px; 
+    height: 200px; 
+    position: absolute; 
+    background-color:#363636; 
+    top: 870px;
+}

@@ -1,0 +1,89 @@
+<script language="javascript" type="text/javascript"> function calcimc()
+    {peso = parseFloat (frmimc.txtpeso.value);  
+    altura= parseFloat (frmimc.txtaltura.value);  
+    idade = parseFloat (frmimc.txtidade.value);   
+    imc = peso/ (altura * altura);  
+      frmimc.txtimc.value =imc ;
+      if (imc < 18.5)
+      (frmimc.txtclass.value = "Magreza") && (frmimc.txtrd.value = "Elevado") &&
+      (frmimc.txtplano.value ="Plano mensal");
+
+      if (imc >= 18.5 || imc == 24.5 )
+      (frmimc.txtclass.value = "Normal") && (frmimc.txtrd.value = "---------") &&
+      (frmimc.txtplano.value ="Plano trimestral");
+
+      if (imc >= 25 || imc == 29.9 )
+      (frmimc.txtclass.value = "Sobrepeso")  && (frmimc.txtrd.value = "Elevado") &&
+      (frmimc.txtplano.value ="Plano semestral ou plano anual");
+
+      if (imc >= 30.0 || imc == 39.9 )
+      (frmimc.txtclass.value = "Obesidade")  && (frmimc.txtrd.value = "Muito elevado")&&
+      (frmimc.txtplano.value ="Plano semestral ou plano anual");
+
+      if (imc >= 40.0)
+      (frmimc.txtclass.value = "Obesidade grave")  && (frmimc.txtrd.value = "Muitíssimo elevado")&&
+      (frmimc.txtplano.value ="Plano anual");
+      
+    }
+</script>
+<!DOCTYPE>
+<html>
+<head>  
+    <meta charset="UTF-8">
+    <title>IMC</title> <link rel="stylesheet" type="text/css" href="css/contatos.css"/>
+</head>
+<body> 
+    <div id="principal"> 
+    <div id="banner"> <img src="img/banner_academia.JPG" width="1400" height="350"> </div>
+          
+        <div id="barra1">          </div>
+        <div id="barra2">          </div>
+        
+        <div id="menu1">
+            <a href="index.html">  Home | </a> 
+            <a href="contatos.html">   IMC |  </a>
+            
+        </div>  
+                      
+        <div id="corpo"> 
+        <div id="quadradoesquerda"> <p class="titulofale">Calcule aqui o seu IMC</p>
+            <fieldset id="caixaodados"> 
+                <form name="frmimc">  
+                    <font face="arial" size="4" color="#C0C0C0">
+                Peso: <input type = "text" name="txtpeso" maxlength="100" size="4"></br><br>
+                   Altura: <input type = "text" name="txtaltura" maxlength="100" size="4"></br><br>
+                   Idade: <input type = "text" name="txtidade" maxlength="100" size="4"></br><br>
+                  Sexo: <select name="sexo" size="1">
+                       <option value="FM">Feminino</option> 
+                       <option value="MC">Masculino</option> 
+                       </select> <BR> <BR>
+                        IMC: <input type = "text" name="txtimc" maxlength="100" size="4"></br><br>
+                        <fieldset>
+                            Classificação: <input type = "text" name="txtclass" maxlength="100" size="20"></br><br>
+                            Risco de doença: <input type = "text" name="txtrd" maxlength="100" size="20"></br><br>  
+                       </fieldset> <br>
+                            Plano recomendado: <input type = "text" name="txtplano" maxlength="200" size="50"> <br><br>
+                            
+                       <input type="button" name="butcalc" value="Calcular IMC" onclick="calcimc()" >
+                       <input type="reset" name="reslimpa" value="Limpar">
+                   
+               </form> </fieldset>
+            </div>
+        
+        <div id="quadradodireita">
+            <p class="textodireita">
+                Índice de Massa Corporal (IMC) <br>
+                • Para o que serve? <br>
+                 Essa técnica é utilizada para verificar o estado nutricional e observar se o indivíduo está dentro dos padrões de normalidade com relação ao seu peso e estatura. <br>
+                • Porque devo fazer? <br> 
+                Este cálculo é uma forma simples e de grande importância para detectar se você apresenta um grau de desnutrição, se está no padrão de normalidade, sobrepeso, obesidade ou obesidade mórbida.<br>
+                • Avisos importantes: <br>
+                Deve-se considerar que apenas este cálculo não é suficiente para avaliar corretamente o estado nutricional. É necessário avaliar a massa muscular, hidratação, atividade física, etc. <br>
+            </p>
+            <img src="img/mulher_esteira.jpg" width="500" height="auto"     > 
+        </div>
+        <div id="rodape"><img src="img/Capturar_logotipo-removebg-preview (1).png" alt="logotipo da academia "></div>
+        
+    </div>
+    </body>
+    </html>
