@@ -1,0 +1,64 @@
+.modal{
+
+    width: 300px;
+}
+
+
+.modal-content{
+
+    width: 300px;
+    background-color: #9abf99;
+
+}
+
+.list-group-item{
+
+     background-color: #9abf99;
+     
+}
+
+.list-group-item:hover{
+
+background-color: #67A665;
+
+}
+
+.imagem {
+
+width:100px ;
+height:100px ;
+border-radius:100px ;
+margin-left: 75px;
+
+}
+
+
+#sidebar_btn {
+
+
+left:1px;
+color: #fff;
+font-size: 25px;
+margin: 5px 0;
+cursor: pointer;
+transition:0.5s;
+transition-property:color;
+bottom: 8px;
+
+}
+
+.sair_btn {
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.sair_btn:hover{
+
+
+color: #fff;
+
+}
+
+
