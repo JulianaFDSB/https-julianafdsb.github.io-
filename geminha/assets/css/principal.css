@@ -1,0 +1,202 @@
+.modal{
+
+    width: 300px;
+}
+
+
+.modal-content{
+
+    width: 300px;
+    background-color: #9abf99;
+
+}
+
+.list-group-item{
+
+     background-color: #9abf99;
+     
+}
+
+.list-group-item:hover{
+
+background-color: #67A665;
+
+}
+
+.imagem {
+
+width:100px ;
+height:100px ;
+border-radius:100px ;
+margin-left: 75px;
+
+}
+
+
+#sidebar_btn {
+
+
+left:1px;
+color: #fff;
+font-size: 25px;
+margin: 5px 0;
+cursor: pointer;
+transition:0.5s;
+transition-property:color;
+bottom: 8px;
+
+}
+
+.sair_btn {
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.sair_btn:hover{
+
+
+color: #fff;
+
+}
+#logo{ /*Imagem Gema presente no menu*/
+
+    width:40px;
+    margin-left:15px;
+
+   
+}
+.navbar h3{ /*Título Gema no Menu*/
+
+    margin-right:1140px;
+    margin-top:08px; 
+    font-size:18px;
+    background-color: aqua;
+    
+}
+
+.navbar h2{ /*Título Gerenciador de Eventos Mediados Acadêmicos no Menu*/
+
+    margin-left:860px;
+    margin-top:-48px; 
+    font-size:16px;
+    text-transform: uppercase;
+    background-color: aqua;
+    
+}
+
+.navbar-brand1
+
+{
+
+margin-left: 60px;
+color: #b2d3b1;
+text-decoration: none;
+position: fixed;
+font-size: 20px;
+
+
+}
+
+.navbar-brand span{
+
+    color: #b2d3b1;
+
+
+}
+
+@media only screen and (max-width:1760px) {
+
+    
+
+    h3{
+        display: none;
+    }
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+      
+}
+
+
+
+@media only screen and (max-width:1330px) {
+
+   
+    h3{
+        display: none;
+    }
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+      
+}
+
+
+
+@media only screen and (max-width:950px) {
+   
+   
+    h3{
+        display: none;
+    }
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+      
+}
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+   
+
+   /* h3{
+    background-color: #fff;
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+    }*/
+
+    h3{
+        display: none;
+    }
+
+    /*#logo {
+
+    margin-top:-160px;
+    margin-left:380px;
+
+    }*/
+   
+    .navbar-brand span {
+   
+
+    display: none;
+        
+
+    }
+  
+
+}
+
+
