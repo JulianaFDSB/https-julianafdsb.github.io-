@@ -36,6 +36,7 @@ Docs & License: https://fullcalendar.io/
         margin-bottom: -62px;
         
     }
+
       
     /*.fc-toolbar h2 {
         font-size: 1.55em;
@@ -49,16 +50,7 @@ Docs & License: https://fullcalendar.io/
 
         margin-left: 100px;
     }
-3
 
-    .fc-button-primary:disabled {
-       
-        margin-left: 46px;
-        margin-bottom: -62px;
-        
-    }
-      
-    
 
 
 @media only screen and (max-width:950px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
@@ -75,7 +67,7 @@ Docs & License: https://fullcalendar.io/
         margin-bottom: -60px;
         
     }
-      
+
     /*.fc-toolbar h2 {
         font-size: 1.55em;
         margin: 0;
