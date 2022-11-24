@@ -1,0 +1,563 @@
+
+/*MENU - Fixo no topo*/
+
+.navbar-brand span{ /*Título Gerenciador de Eventos Mediados Acadêmicos no Menu*/
+
+    color: #b2d3b1;
+
+}
+
+.navbar-brand1 /*Título Gema no Menu*/
+
+{
+
+margin-left: 60px;
+color: #b2d3b1;
+text-decoration: none;
+position: fixed;
+font-size: 18px;
+
+}
+
+#logo{ /*Imagem Gema presente no menu*/
+
+    width:45px;
+    margin-left:15px; 
+}
+
+#sidebar_btn { /*aqui modifica as caracteristicas do icone de menu que temos na navbar*/
+
+
+    left:1px;
+    color: #fff;
+    font-size: 25px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition:0.5s;
+    transition-property:color;
+    bottom: 8px;
+    
+    }
+    
+    a:hover { /*modifica as caracteristicas da palavra gema que se encontra no menu fixo no topo*/
+
+        color:#cfe4ce;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MENU - Fixo na lateral do site/ modal */
+
+
+.modal-content{ /*aqui modifica a caixa inteira do menu que aparece do lado no site */
+
+    width: 300px;
+    background-color: #9abf99;
+
+}
+
+.list-group-item{ /*aqui modifica a cor da caixa em que as palavras do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta) estão*/
+
+     background-color: #9abf99;
+     
+}
+
+.list-group-item:hover{ /*aqui meche na cor que fica quando passa o mouse na caixa do texto dentro do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta)*/
+
+background-color: #67A665;
+
+}
+
+.list-group-item span{ /*aqui meche no texto dentro do menu (Painel,Eventos no Calendário,Processos,Notificações e Conta)*/
+
+margin-left:15px;
+
+}
+
+
+.imagem2 { /*modifica as caracteristicas da imagem que está no inicio do menu*/
+
+    width:100px ;
+    height:100px ;
+    border-radius:100px ;
+    margin-left: 75px;
+    
+    }
+    
+
+
+
+.sair_btn { /*aqui modifica as caracteristicas do botão sair que temos no menu lateral do site*/
+
+text-decoration: none;
+color: #fff;
+
+}
+
+.sair_btn:hover{/*aqui modifica as caracteristicas de quando o mouse passa em cima do botão sair*/
+
+
+color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Informações do Usúario*/
+
+
+
+#span1 { /*Informações dos títulos da parte informações do usúario - Nome, email e prontuario*/
+
+    color: #000;
+    /*font-family:'Arial Narrow', Arial, sans-serif;*/
+    margin-left:20px;
+    margin-top: 30px;
+}
+
+.imagem1 { /*modifica as caracteristicas da imagem que acompanha o nome do usuario*/
+
+    width:100px ;
+    height:100px ;
+    border-radius:100px ;
+    margin-left: 40px;
+    margin-top:25px;
+    
+    }
+    
+    h3{ /*modifica as caracteristicas do nome do usuario*/
+    
+        margin-left: 200px;
+        margin-top: -110px;
+        font-family:'Arial Narrow', Arial, sans-serif;
+    
+    
+    }
+    
+    h5 { /*modifica as caracteristicas do nome informações do usuario*/
+    
+    
+        /*font-family:Georgia, 'Times New Roman', Times, serif;*/
+        /*background-color: #7bbd79;*/
+        height: 30px;
+        width:300px;
+        margin-left: 11px;
+        margin-top: 20px;
+
+        
+    }
+
+    .aa{   /*modifica as caracteristicas da div que guarda as innformações do usuario*/
+
+        background-color: #fff;
+        margin-top: 60px;
+        border: solid 1px rgb(221, 216, 216);
+        border-radius:10px ;
+        margin-top:25px;
+        
+    }
+
+    .editarnome { /*aqui modifica as caracteristicas do nome editar perfil*/
+
+        margin-left: 200px;
+        margin-top: 5px;
+        
+        
+    }
+    
+    .editarnome:hover{ /*aqui modifica as caracteristicas de quando passa o mouse no nome editar perfil*/
+    
+        color: #000;
+        text-decoration-color:#000;
+    }
+    
+    .column { /*aqui modifica as caracteristicas da div collum (ela ta embaixo da div card) que ta o nome do usuario e o titulo editar perfil*/
+        float: left;
+        width: 100%;
+        padding: 0 10px;
+        margin-top: 20px;
+        /*background-color: #6583a6;*/
+    
+      }
+    .card { /*aqui modifica as caracteristicas da div card (ela ta dentro da div collum) que ta o nome do usuario e o titulo editar perfil*/
+    
+        height: 160px;
+        margin-top: 5px;
+        /*background-color: #67A665;*/
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Informações do acesso rapido e links uteis*/
+
+
+#span2 { /*Informações dos títulos da parte informações do acesso rapido e links uteis/
+
+    color: #000;
+    /*font-family:'Arial Narrow', Arial, sans-serif;*/
+    margin-left:20px;
+    margin-top: 20px;
+    font-size:20px;
+}
+
+.emailnome { /*modifica as caracteristicas do titulo alterar email*/
+
+   
+    margin-left:20px;
+}
+
+.emailnome:hover { /*aqui modifica as caracteristicas de quando passa o mouse no nome alterar email*/
+
+    color: #000;
+}
+
+.senhanome { /*modifica as caracteristicas do titulo alterar senha*/
+
+    margin-left:20px;
+    
+}
+
+.senhanome:hover { /*aqui modifica as caracteristicas de quando passa o mouse no nome alterar senha*/
+
+    color: #000;
+}
+
+.eventos { /*modifica as caracteristicas do titulo eventos no calendario*/
+
+    margin-top: -08px;
+    margin-left:20px;
+}
+
+.eventos:hover{ /*aqui modifica as caracteristicas de quando passa o mouse no nome eventos no calendario*/
+
+    color: #000;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem ;
+}
+
+
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #67a665;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #3e8c3b;
+}
+
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.80rem;
+    font-weight: 900;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.editar-button button {
+    width: 30%;
+    margin-top: 0.3rem;
+    border: none;
+    background-color: #67a665;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editar-button button:hover {
+    background-color: #a2c2a1;
+}
+
+.editar-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+
+
+@media only screen and (max-width:1760px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+    
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+      
+}
+
+
+
+@media only screen and (max-width:1330px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+  
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+    h3{
+        font-size: 25px;
+        margin-left:185px;
+        margin-top:-110px;
+        
+        
+    }
+
+    .editarnome {
+
+        margin-left: 185px;
+        margin-top:0px;
+       
+        
+    }
+
+    .imagem1 {
+
+        margin-left: 42px;
+        margin-top:25px;
+    }
+
+      
+}
+
+
+
+@media only screen and (max-width:950px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+   
+
+    .navbar-brand span {
+   
+
+        display: none;
+            
+    
+    }
+
+    h3{
+        font-size: 22px;
+        margin-left:145px;
+        margin-top:-115px;
+        
+        
+    }
+
+    .editarnome {
+
+        margin-left: 145px;
+        margin-top:0px;
+       
+        
+    }
+
+    .imagem1 {
+
+        margin-left: 22px;
+        margin-top:25px;
+    }
+
+  
+      
+}
+
+@media only screen and (max-width:770px) {
+
+
+h3{
+    font-size: 20px;
+    margin-left:145px;
+    margin-top:-110px;
+    
+    
+}
+
+.imagem1 {
+
+    margin-left: 22px;
+    margin-top:25px;
+}
+
+.editarnome {
+
+    margin-left: 145px;
+    margin-top:0px;
+   
+    
+}
+
+.eventos {
+
+    margin-top: -08px;
+    margin-left:20px;
+}
+
+#span2{
+
+    font-size: 15px;
+    margin-top:10px;
+}
+}
+
+
+
+
+@media only screen and (max-width:600px) { /*modifica as caracteristicas especificadas aqui quando a tela esta no maximo desse tamanho*/
+
+
+   
+   
+    .navbar-brand span {
+   
+
+    display: none;
+        
+
+    }
+    .fc-toolbar h2 {
+    font-size: 1.5em;
+    }
+
+    .imagem1 { /*modifica as caracteristicas da imagem que está no meio da pagina*/
+
+        width:110px ;
+        height:110px ;
+        border-radius:100px ;
+        margin-left: 25px;
+        margin-top:25px;
+        
+        }
+    
+        h3{
+
+            
+            margin-top: -125px;
+            margin-left: 160px;
+            font-size: 18px;
+            
+        
+        
+        }
+        .editarnome {
+
+            margin-left: 160px;
+            margin-top: 5px;
+           
+            
+        }
+
+
+        h5{
+
+            
+            margin-top: 25px;
+            margin-left: 20px;
+            font-size: 18px;
+        
+        
+        }
+
+      
+        
+        
+
+}
+
+
