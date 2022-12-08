@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="assets/css/principal.css">
+    <link href='assets/css1/core/main.min.css' rel='stylesheet' />
+    <link href='assets/css1/daygrid/main.min.css' rel='stylesheet' />
+    <script src='assets/js1/core/main.min.js'></script>
+    <script src='assets/js1/interaction/main.min.js'></script>
+    <script src='assets/js1/daygrid/main.min.js'></script>
+    <script src='assets/js1/core/locales/pt-br.js'></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                locale: 'pt-br',
+                plugins: ['interaction', 'dayGrid'],
+                //defaultDate: '2019-04-12',
+                editable: false,
+                eventLimit: true,
+                events: 'list_eventos.php',
+                extraParams: function () {
+                    return {
+                        cachebuster: new Date().valueOf()
+                    };
+                }
+            });
+            calendar.render();
+        });
+    </script>
+    <style>
+        
+        #calendar {
+            max-width: 900px;
+            margin: 0 auto;
+           
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar navbar-light shadow fixed-top"  style="background-color: #67A665;">
+        
+       <div class="container-fluid">
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <ion-icon name="menu-outline" id="sidebar_btn"></ion-icon>
+          </button>
+          <a class="navbar-brand1" href="principal.php">
+            <span>G.E.M.A</span>
+          </a>
+          
+         <a class="navbar-brand">
+          <span>Gerenciador de Eventos Mediados Acadêmicos</span>
+          <img src="assets/img/logoGEMA.jpg" class="rounded-pill" id="logo">
+          
+        </a>
+       
+         
+      </div>
+   </nav>
+   
+
+<div class="container">
+
+
+  <div class="row">
+  
+    <div class="col-sm-12" style="background-color:#fff;margin-top:150px;">
+        
+
+        <div class="card">
+  
+        <span id="span">Bem Vindo ao Gema!</span><br><br>
+        <span id="span3">O Gerenciador de Eventos Mediados Acadêmicos é um sistema que busca auxiliar o gerenciamento de eventos da Instituição possibilitando a solicitação e o controle desses eventos.  </span><br><br>
+        <span id="span4">Para cadastrar algum evento, se dirija a página <strong>Eventos no Calendário</strong> e para maiores direcionamentos leia as instruções presentes na página.</span><br><br>
+        
+  
+        </div>
+  
+     
+    </div> 
+  
+   
+    </div>
+
+<div class="row">
+  
+  <div class="col-sm-8" style="background-color:#fff;margin-top:150px;">
+      
+        <div id='calendar' style="background-color: #fff;"></div> 
+
+  </div> 
+
+
+
+  <div class="col-sm-4"style="background-color:#fff;margin-top:150px;" >
+
+  
+   <h3>Processos</h3>
+  <div class="column">
+
+      <div class="card1">
+
+      <div class="card2">
+
+        
+        <span id="apro">1</span> <br>
+        <span id="card2">Aprovado(s)</span>
+
+      </div>
+
+      <div class="card3">
+
+        
+        <span id="pend">150</span> <br>
+        <span  id="card3">Pendente(s)</span>
+
+      </div>
+
+      <div class="card4">
+
+        
+        <span id="rec">40</span> <br>
+        <span  id="card4">Recusado(s)</span>
+
+      </div>
+
+
+      </div>
+
+  </div>
+
+  <div class="col-sm-4"style="background-color:#fff;margin-top:65px;" > </div>
+
+  <div class="column">
+
+     
+  <!-- Carrousel com a equipe-->
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/jjj.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/jjj.jpg" alt="Chicago" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/jjj.jpg" alt="New York" class="d-block" style="width:100%">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>  
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+      
+      
+      
+
+  </div>
+
+
+  </div>
+
+
+  <div class="col-sm-4"style="background-color:#fff;margin-top:150px;" > </div>
+ 
+  </div>
+
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          
+          <center>
+            <img src="assets/img/1200x600wp_-_Editado.png" class="imagem">
+            <h2 style="margin-left: 60px;" >Úsuario</h2>
+        </center>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+        <ul class="list-group list-group-flush">
+                <a href="#"><li class="list-group-item"><ion-icon name="desktop-outline"></ion-icon> <span>Painel</span></li> </a>
+                <a href="eventos.php"><li class="list-group-item"> <ion-icon name="calendar-outline"></ion-icon> <span>Eventos no Calendário</span></li></a>
+                <a href="#"><li class="list-group-item"> <ion-icon name="settings-outline"></ion-icon><span>Processos</span></li></a>
+                <a href="conta.php"><li class="list-group-item"><ion-icon name="person-circle-outline"></ion-icon><span>Conta</span></li></a>
+        </ul>
+       
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary"><a href="index.php" class="sair_btn">Sair</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
